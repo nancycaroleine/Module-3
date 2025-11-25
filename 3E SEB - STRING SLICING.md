@@ -1,30 +1,38 @@
 # Exp.No:3e
-## SEB - STRING SLICING
+## SEB 
 
 ---
 
 ### AIM  
-To write a Python function that accepts a string and forms a new string by reversing the characters from the **4th position to the 10th position** with **alternate characters**, and then prints the new string.
+To Write a Python program to check whether an element 'r'  ,'5' exists within a tuple .
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Accept a string as input.  
-3. Take a slice of the input string from index **2** to **10** (Python uses 0-based indexing, so index 2 refers to the 3rd character, i.e., the 4th character in natural terms).  
-4. Reverse the sliced substring.  
-5. Extract every second character from the reversed substring using slicing (`[::2]`).  
-6. Print the final processed string.  
-7. Terminate the program.
+1. Begin the program.
+2. Read a tuple as input from the user.
+3. Check if the character 'r' is present in the tuple.
+4. Display the result (True or False).
+5. Check if the number 5 is present in the tuple.
+6. Display the result (True or False).
+7. End the program.
+
 
 ---
 
 ### PROGRAM
+212223060181
 
+NANCY CAROLEINE P R
 ```
+tuple1=eval(input())
+print("r" in tuple1) 
+print(5 in tuple1)
 ```
 
 ### OUTPUT
+<img width="736" height="241" alt="image" src="https://github.com/user-attachments/assets/0a8c1922-0b87-4896-a760-96f3225329ed" />
 
 ### RESULT
+Thus Python program to check whether an element 'r'  ,'5' exists within a tuple has been executed successfully.
