@@ -4,7 +4,7 @@
 ---
 
 ### AIM  
-To write a Python program that matches a string containing an `'a'` followed by **two to three `'b'` characters** using regular expressions.
+To Write a Python program to find sequences of lowercase letters joined with a underscore.
 
 ---
 
@@ -21,9 +21,23 @@ To write a Python program that matches a string containing an `'a'` followed by 
 ---
 
 ### PROGRAM
+212223060181
+NANCY CAROLEINE P R
 
 ```
+import re
+
+string = input()
+pattern = r'^[a-z]+_[a-z]+$'
+
+if re.match(pattern, string):
+    print("Found a match!")
+else:
+    print("Not matched!")
 ```
 ### OUTPUT
+<img width="598" height="200" alt="image" src="https://github.com/user-attachments/assets/3ddf9f06-14e5-4c49-9efc-aae29d56a43d" />
+
 
 ### RESULT
+Thus  Python program to find sequences of lowercase letters joined with a underscore has been executed successfully.
